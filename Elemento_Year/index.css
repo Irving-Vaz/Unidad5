@@ -1,0 +1,33 @@
+
+        body {
+            margin: 0;
+            background: url('imagenes/Elementos_fondo.jpeg') center/cover fixed;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+            color: white;
+        }
+        .caja {
+            background: rgba(53, 205, 200, 0.7);
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        input {
+            padding: 15px;
+            font-size: 30px;
+            width: 200px;
+            text-align: center;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background: #c2cb1cff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
